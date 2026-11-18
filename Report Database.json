@@ -1,0 +1,999 @@
+{
+  "version": "2.0",
+  "reports": [
+    {
+      "id": "REP-MWKTLEMB-403",
+      "labNo": "NDC-171126-00009",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "urine_re",
+          "name": "URINE ROUTINE & MICROSCOPIC",
+          "reportTitle": "REPORT OF URINE EXAMINATION",
+          "category": "Clinical Pathology",
+          "method": "Chemical Strip & Microscopy",
+          "sampleType": "Midstream Urine",
+          "parameters": [
+            {
+              "id": "color",
+              "name": "Colour",
+              "value": "Pale Yellow",
+              "unit": "",
+              "refRange": "Pale Yellow",
+              "group": "PHYSICAL EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "appearance",
+              "name": "Appearance",
+              "value": "Clear",
+              "unit": "",
+              "refRange": "Clear",
+              "group": "PHYSICAL EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "reaction_ph",
+              "name": "Reaction (pH)",
+              "value": "6.0",
+              "unit": "",
+              "refRange": "4.5 - 8.0",
+              "group": "PHYSICAL EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "urine_protein",
+              "name": "Albumin / Protein",
+              "value": "Nil",
+              "unit": "",
+              "refRange": "Nil",
+              "group": "CHEMICAL EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "urine_sugar",
+              "name": "Sugar",
+              "value": "Nil",
+              "unit": "",
+              "refRange": "Nil",
+              "group": "CHEMICAL EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "pus_cells",
+              "name": "Pus Cells",
+              "value": "1 - 2",
+              "unit": "/HPF",
+              "refRange": "0 - 4 /HPF",
+              "group": "MICROSCOPIC EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "epithelial",
+              "name": "Epithelial Cells",
+              "value": "2 - 3",
+              "unit": "/HPF",
+              "refRange": "0 - 5 /HPF",
+              "group": "MICROSCOPIC EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "urine_rbc",
+              "name": "R.B.C.",
+              "value": "Nil",
+              "unit": "/HPF",
+              "refRange": "Nil",
+              "group": "MICROSCOPIC EXAMINATION",
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T15:01:15.971Z",
+      "updatedAt": "2026-11-17T15:13:06.304Z"
+    },
+    {
+      "id": "REP-MWKTG40K-529",
+      "labNo": "NDC-171126-00008",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "widal",
+          "name": "WIDAL SLIDE AGGLUTINATION TEST",
+          "reportTitle": "SEROLOGICAL REPORT",
+          "category": "Serology",
+          "method": "Slide Agglutination",
+          "sampleType": "Serum",
+          "parameters": [
+            {
+              "id": "mp_kit_result",
+              "name": "MP (KIT)",
+              "value": "Negative (-ve)",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_overall_result",
+              "name": "WIDAL TEST",
+              "value": "Positive (+ve)",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_o_20",
+              "name": "“O” typhi 1:20",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_o_40",
+              "name": "“O” typhi 1:40",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_o_80",
+              "name": "“O” typhi 1:80",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_o_160",
+              "name": "“O” typhi 1:160",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_o_320",
+              "name": "“O” typhi 1:320",
+              "value": "-ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_h_20",
+              "name": "“H” typhi 1:20",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_h_40",
+              "name": "“H” typhi 1:40",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_h_80",
+              "name": "“H” typhi 1:80",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_h_160",
+              "name": "“H” typhi 1:160",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_h_320",
+              "name": "“H” typhi 1:320",
+              "value": "-ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_ah_20",
+              "name": "“AH” typhi 1:20",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_ah_40",
+              "name": "“AH” typhi 1:40",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_ah_80",
+              "name": "“AH” typhi 1:80",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_ah_160",
+              "name": "“AH” typhi 1:160",
+              "value": "-ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_ah_320",
+              "name": "“AH” typhi 1:320",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_bh_20",
+              "name": "“BH” typhi 1:20",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_bh_40",
+              "name": "“BH” typhi 1:40",
+              "value": "+ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_bh_80",
+              "name": "“BH” typhi 1:80",
+              "value": "-ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_bh_160",
+              "name": "“BH” typhi 1:160",
+              "value": "-ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "widal_bh_320",
+              "name": "“BH” typhi 1:320",
+              "value": "-ve",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:57:08.948Z",
+      "updatedAt": "2026-11-17T14:57:08.948Z"
+    },
+    {
+      "id": "REP-MWKSZROH-371",
+      "labNo": "NDC-171126-00007",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "thyroid",
+          "name": "THYROID PROFILE (T3, T4, TSH)",
+          "reportTitle": "REPORT OF THYROID PROFILE",
+          "category": "Endocrinology",
+          "method": "CLIA / EIA Method",
+          "sampleType": "Serum",
+          "parameters": [
+            {
+              "id": "t3",
+              "name": "Triiodothyronine (Total T3)",
+              "value": "115",
+              "unit": "ng/dl",
+              "refRange": "60 - 200 ng/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "t4",
+              "name": "Thyroxine (Total T4)",
+              "value": "8.4",
+              "unit": "µg/dl",
+              "refRange": "4.5 - 12.0 µg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "tsh",
+              "name": "Thyroid Stimulating Hormone (TSH)",
+              "value": "2.45",
+              "unit": "µIU/ml",
+              "refRange": "0.35 - 4.94 µIU/ml",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:44:26.465Z",
+      "updatedAt": "2026-11-17T14:44:26.465Z"
+    },
+    {
+      "id": "REP-MWKS79CO-914",
+      "labNo": "NDC-171126-00006",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "kft",
+          "name": "RENAL / KIDNEY FUNCTION TEST (KFT)",
+          "reportTitle": "REPORT OF KIDNEY FUNCTION TEST (KFT)",
+          "category": "Biochemistry",
+          "method": "Urease / Jaffe Kinetic",
+          "sampleType": "Serum",
+          "parameters": [
+            {
+              "id": "blood_urea",
+              "name": "Blood Urea",
+              "value": "26",
+              "unit": "mg/dl",
+              "refRange": "15 - 45 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "creatinine",
+              "name": "Serum Creatinine",
+              "value": "0.9",
+              "unit": "mg/dl",
+              "refRange": "0.6 - 1.2 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "uric_acid",
+              "name": "Serum Uric Acid",
+              "value": "5.1",
+              "unit": "mg/dl",
+              "refRange": "3.5 - 7.2 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "calcium",
+              "name": "Serum Calcium",
+              "value": "9.4",
+              "unit": "mg/dl",
+              "refRange": "8.5 - 10.5 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:22:16.344Z",
+      "updatedAt": "2026-11-17T14:22:16.344Z"
+    },
+    {
+      "id": "REP-MWKS68OU-423",
+      "labNo": "NDC-171126-00005",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "lft",
+          "name": "LIVER FUNCTION TEST (LFT)",
+          "reportTitle": "REPORT OF LIVER FUNCTION TEST (LFT)",
+          "category": "Biochemistry",
+          "method": "Spectrophotometry / Enzymatic",
+          "sampleType": "Serum",
+          "parameters": [
+            {
+              "id": "bili_total",
+              "name": "Bilirubin (Total)",
+              "value": "0.8",
+              "unit": "mg/dl",
+              "refRange": "0.2 - 1.2 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "bili_direct",
+              "name": "Bilirubin (Direct)",
+              "value": "0.2",
+              "unit": "mg/dl",
+              "refRange": "0.0 - 0.3 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "sgot",
+              "name": "SGOT (AST)",
+              "value": "28",
+              "unit": "IU/L",
+              "refRange": "8 - 40 IU/L",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "sgpt",
+              "name": "SGPT (ALT)",
+              "value": "32",
+              "unit": "IU/L",
+              "refRange": "5 - 35 IU/L",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "alp",
+              "name": "Alkaline Phosphatase",
+              "value": "85",
+              "unit": "IU / L",
+              "refRange": "60 - 142 U / L",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "total_protein",
+              "name": "Total Protein",
+              "value": "7.4",
+              "unit": "g/dl",
+              "refRange": "6.4 - 8.3 g/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "albumin",
+              "name": "Serum Albumin",
+              "value": "4.2",
+              "unit": "g/dl",
+              "refRange": "3.5 - 5.2 g/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:21:28.830Z",
+      "updatedAt": "2026-11-17T14:21:28.830Z"
+    },
+    {
+      "id": "REP-MWKS5STK-180",
+      "labNo": "NDC-171126-00004",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": true,
+      "tests": [
+        {
+          "id": "lipid_profile",
+          "name": "LIPID PROFILE",
+          "reportTitle": "REPORT OF LIPID PROFILE",
+          "category": "Biochemistry",
+          "method": "Enzymatic Colorimetric",
+          "sampleType": "Serum (12 hrs Fasting)",
+          "parameters": [
+            {
+              "id": "total_chol",
+              "name": "Serum Total Cholesterol",
+              "value": "178",
+              "unit": "mg/dl",
+              "refRange": "< 200 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "triglycerides",
+              "name": "Serum Triglycerides",
+              "value": "135",
+              "unit": "mg/dl",
+              "refRange": "< 150 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "hdl",
+              "name": "HDL Cholesterol",
+              "value": "48",
+              "unit": "mg/dl",
+              "refRange": "> 40 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "ldl",
+              "name": "LDL Cholesterol",
+              "value": "103.0",
+              "unit": "mg/dl",
+              "refRange": "< 100 mg/dl",
+              "group": null,
+              "isAbnormal": true,
+              "arrow": "↑"
+            },
+            {
+              "id": "vldl",
+              "name": "VLDL Cholesterol",
+              "value": "27.0",
+              "unit": "mg/dl",
+              "refRange": "5 - 30 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "chol_hdl_ratio",
+              "name": "Total Chol / HDL Ratio",
+              "value": "3.7",
+              "unit": "Ratio",
+              "refRange": "3.3 - 4.4",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:21:08.264Z",
+      "updatedAt": "2026-11-17T14:21:08.264Z"
+    },
+    {
+      "id": "REP-MWKS5EJ7-147",
+      "labNo": "NDC-171126-00003",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "biochemistry",
+          "name": "BIO-CHEMICAL EXAMINATION",
+          "reportTitle": "REPORT OF BIO-CHEMICAL EXAMINATION",
+          "category": "Biochemistry",
+          "method": "Semi Auto Analyzer / Enzymatic",
+          "sampleType": "Fluoride Plasma / Serum",
+          "parameters": [
+            {
+              "id": "rbs",
+              "name": "Blood Sugar Random",
+              "value": "103",
+              "unit": "mg/dl",
+              "refRange": "70 - 140 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "sgpt",
+              "name": "SGPT",
+              "value": "34",
+              "unit": "IU/L",
+              "refRange": "5 - 35 IU/L",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "sgot",
+              "name": "SGOT",
+              "value": "25",
+              "unit": "IU/L",
+              "refRange": "8 - 40 IU/L",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "alp",
+              "name": "Alkaline Phosphatase",
+              "value": "123",
+              "unit": "IU / L",
+              "refRange": "60 - 142 U / L",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "fbs",
+              "name": "Blood Sugar Fasting (FBS)",
+              "value": "",
+              "unit": "mg/dl",
+              "refRange": "70 - 100 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "ppbs",
+              "name": "Blood Sugar P.P. (PPBS)",
+              "value": "",
+              "unit": "mg/dl",
+              "refRange": "< 140 mg/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:20:49.747Z",
+      "updatedAt": "2026-11-17T14:20:49.747Z"
+    },
+    {
+      "id": "REP-MWKRWBN8-949",
+      "labNo": "NDC-171126-00002",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "blood_group",
+          "name": "BLOOD GROUP & RH FACTOR",
+          "reportTitle": "REPORT OF BLOOD GROUP & RH FACTOR",
+          "category": "Haematology",
+          "method": "Slide Agglutination",
+          "sampleType": "EDTA Whole Blood",
+          "parameters": [
+            {
+              "id": "abo_group",
+              "name": "ABO Blood Group",
+              "value": "AB",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "rh_factor",
+              "name": "Rh Factor",
+              "value": "Positive (+)",
+              "unit": "",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:13:46.100Z",
+      "updatedAt": "2026-11-17T14:13:46.100Z"
+    },
+    {
+      "id": "REP-MWKRJTWS-240",
+      "labNo": "NDC-171126-00001",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-17",
+      "collectionDate": "2026-11-17",
+      "remarks": "",
+      "hasAbnormal": true,
+      "tests": [
+        {
+          "id": "cbc",
+          "name": "COMPLETE BLOOD COUNT (CBC)",
+          "reportTitle": "REPORT OF COMPLETE BLOOD COUNT (CBC)",
+          "category": "Haematology",
+          "method": "Automated Cell Counter / Microscopy",
+          "sampleType": "EDTA Whole Blood",
+          "parameters": [
+            {
+              "id": "hb",
+              "name": "Hemoglobin",
+              "value": "10.3",
+              "unit": "g/dl",
+              "refRange": "12.0 - 16.0 g/dl",
+              "group": null,
+              "isAbnormal": true,
+              "arrow": "↓"
+            },
+            {
+              "id": "hb_pct",
+              "name": "Hb. %",
+              "value": "70.55",
+              "unit": "%",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "platelets",
+              "name": "Platelets",
+              "value": "1.54",
+              "unit": "Lac/cumm",
+              "refRange": "1.5 - 4.5 Lac/cumm",
+              "group": "TOTAL COUNT",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "rbc",
+              "name": "Erythrocytes (RBC)",
+              "value": "3.43",
+              "unit": "milli./cumm",
+              "refRange": "4.0 - 5.8 mill/cumm",
+              "group": "TOTAL COUNT",
+              "isAbnormal": true,
+              "arrow": "↓"
+            },
+            {
+              "id": "wbc",
+              "name": "Leucocytes(WBC)",
+              "value": "10800",
+              "unit": "/cumm",
+              "refRange": "4000 - 11000/cumm",
+              "group": "TOTAL COUNT",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "neutrophil",
+              "name": "Neutrophil",
+              "value": "68",
+              "unit": "%",
+              "refRange": "40 - 70 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "lymphocyte",
+              "name": "Lymphocyte",
+              "value": "28",
+              "unit": "%",
+              "refRange": "20 - 40 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "monocyte",
+              "name": "Monocyte",
+              "value": "01",
+              "unit": "%",
+              "refRange": "01 - 05 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "eosinophil",
+              "name": "Eosinophil",
+              "value": "03",
+              "unit": "%",
+              "refRange": "01 - 06 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "basophils",
+              "name": "Basophils",
+              "value": "00",
+              "unit": "%",
+              "refRange": "00 - 01 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "hct_pcv",
+              "name": "HCT(PCV)",
+              "value": "30.9",
+              "unit": "%",
+              "refRange": "35 - 55 %",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": true,
+              "arrow": "↓"
+            },
+            {
+              "id": "mcv",
+              "name": "MCV",
+              "value": "90.1",
+              "unit": "fl",
+              "refRange": "76 - 100 fl",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "mch",
+              "name": "MCH",
+              "value": "30",
+              "unit": "pg",
+              "refRange": "27 - 32 pg",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "mchc",
+              "name": "MCHC",
+              "value": "33.3",
+              "unit": "g/dl",
+              "refRange": "30 - 35 g/dl",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-17T14:04:03.244Z",
+      "updatedAt": "2026-11-17T14:04:03.244Z"
+    }
+  ],
+  "settings": {
+    "labName": "NOVEL DIAGNOSTIC CENTRE",
+    "labTagline": "Centre For Patho Biochem (COMPUTERIZED)",
+    "regNo": "",
+    "phone": "7858915582, 7060572350",
+    "address": "Hira Market, College Road, Churipatti, Kishanganj (Bihar)",
+    "email": "novel.diagnostic@gmail.com",
+    "website": "www.noveldiagnostic.com",
+    "pathologistName": "",
+    "pathologistDegree": "",
+    "technicianName": "ALTAF ALAM",
+    "technicianDegree": "B.Sc MLT (M.G.M)",
+    "technicianAdditionalText": "AHFADFAJFJFJ",
+    "referringDoctors": [],
+    "enableHeaderPrint": true,
+    "letterheadTopMargin": "42mm",
+    "footerNote": "This report is based on computerized analyzer findings.",
+    "updatedAt": 1794928649507
+  },
+  "migration": {
+    "legacyDataImportedAt": "2026-11-17T14:03:25.503Z"
+  }
+}
