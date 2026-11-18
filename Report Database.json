@@ -2,6 +2,174 @@
   "version": "2.0",
   "reports": [
     {
+      "id": "REP-MWLS0LT6-801",
+      "labNo": "NDC-181126-00010",
+      "patientName": "ABU NASAR",
+      "patientAge": "24 Years",
+      "patientGender": "Male",
+      "patientPhone": "",
+      "referredBy": "Self",
+      "sampleType": "Blood / Serum",
+      "reportDate": "2026-11-18",
+      "collectionDate": "2026-11-18",
+      "remarks": "",
+      "hasAbnormal": false,
+      "tests": [
+        {
+          "id": "cbc",
+          "name": "COMPLETE BLOOD COUNT (CBC)",
+          "reportTitle": "REPORT OF COMPLETE BLOOD COUNT (CBC)",
+          "category": "Haematology",
+          "method": "Automated Cell Counter / Microscopy",
+          "sampleType": "EDTA Whole Blood",
+          "parameters": [
+            {
+              "id": "hb",
+              "name": "Hemoglobin",
+              "value": "12.2",
+              "unit": "g/dl",
+              "refRange": "12.0 - 16.0 g/dl",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "hb_pct",
+              "name": "Hb. %",
+              "value": "83.56",
+              "unit": "%",
+              "refRange": "",
+              "group": null,
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "platelets",
+              "name": "Platelets",
+              "value": "1.54",
+              "unit": "Lac/cumm",
+              "refRange": "1.5 - 4.5 Lac/cumm",
+              "group": "TOTAL COUNT",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "rbc",
+              "name": "Erythrocytes (RBC)",
+              "value": "4.07",
+              "unit": "milli./cumm",
+              "refRange": "4.0 - 5.8 mill/cumm",
+              "group": "TOTAL COUNT",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "wbc",
+              "name": "Leucocytes(WBC)",
+              "value": "10800",
+              "unit": "/cumm",
+              "refRange": "4000 - 11000/cumm",
+              "group": "TOTAL COUNT",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "neutrophil",
+              "name": "Neutrophil",
+              "value": "68",
+              "unit": "%",
+              "refRange": "40 - 70 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "lymphocyte",
+              "name": "Lymphocyte",
+              "value": "28",
+              "unit": "%",
+              "refRange": "20 - 40 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "monocyte",
+              "name": "Monocyte",
+              "value": "01",
+              "unit": "%",
+              "refRange": "01 - 05 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "eosinophil",
+              "name": "Eosinophil",
+              "value": "03",
+              "unit": "%",
+              "refRange": "01 - 06 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "basophils",
+              "name": "Basophils",
+              "value": "00",
+              "unit": "%",
+              "refRange": "00 - 01 %",
+              "group": "DIFFERENTIAL COUNT OF W.B.C",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "hct_pcv",
+              "name": "HCT(PCV)",
+              "value": "36.6",
+              "unit": "%",
+              "refRange": "35 - 55 %",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "mcv",
+              "name": "MCV",
+              "value": "89.9",
+              "unit": "fl",
+              "refRange": "76 - 100 fl",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "mch",
+              "name": "MCH",
+              "value": "30",
+              "unit": "pg",
+              "refRange": "27 - 32 pg",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            },
+            {
+              "id": "mchc",
+              "name": "MCHC",
+              "value": "33.3",
+              "unit": "g/dl",
+              "refRange": "30 - 35 g/dl",
+              "group": "OTHER PARAMETERS",
+              "isAbnormal": false,
+              "arrow": ""
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-11-18T07:04:52.074Z",
+      "updatedAt": "2026-11-18T07:04:52.074Z"
+    },
+    {
       "id": "REP-MWKTLEMB-403",
       "labNo": "NDC-171126-00009",
       "patientName": "ABU NASAR",

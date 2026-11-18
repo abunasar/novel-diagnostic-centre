@@ -17,7 +17,11 @@ export class LabApp {
     this.destroyed = false;
     this.pendingDeleteConfirmation = null;
     this.previousDeleteFocus = null;
-    this.init();
+    this.init().catch(error => {
+      if (!this.destroyed) {
+        this.showToast(error instanceof Error ? error.message : String(error), "error", "Could not load laboratory data");
+      }
+    });
   }
 
   destroy() {
@@ -52,7 +56,7 @@ export class LabApp {
   async init() {
     this.settings = await window.labDB.getSettings();
     if (this.destroyed) return;
-    this.updateDataFileStatus(window.labDB.isDataFileConnected());
+    this.updateDatabaseStatus(window.labDB.isConnected());
     this.applySettingsToUI();
     this.setupNavigation();
     this.renderTestCheckboxes();
@@ -62,50 +66,25 @@ export class LabApp {
 
     await this.refreshDashboard();
     await this.refreshRecordsTable();
-    if (!window.labDB.isDataFileConnected()) this.navigate("backup");
   }
 
-  updateDataFileStatus(connected, fileName = "") {
-    const storagePill = document.getElementById("data-file-status");
+  updateDatabaseStatus(connected) {
+    const storagePill = document.getElementById("database-status");
     const storageText = storagePill && storagePill.querySelector(".offline-text");
-    const connectionStatus = document.getElementById("data-file-connection-status");
+    const connectionStatus = document.getElementById("database-connection-status");
     if (storageText) {
-      storageText.textContent = connected ? "Report Database Connected" : "Database Not Connected";
+      storageText.textContent = connected ? "MongoDB Connected" : "MongoDB Not Connected";
     }
     if (storagePill) {
       storagePill.classList.toggle("connected", connected);
       storagePill.title = connected
-        ? `Reports are saved in ${fileName}. Reconnect this file after reopening the app.`
-        : "Connect or create a JSON data file in Backup & Export.";
+        ? "Reports and laboratory settings are stored in MongoDB."
+        : "Sign in to connect to the laboratory database.";
     }
     if (connectionStatus) {
       connectionStatus.textContent = connected
-        ? `Report Database Connected: ${fileName}. New reports and changes are saved directly to this file.`
-        : "Database Not Connected. Connect your existing file or create one to save and print reports.";
-    }
-  }
-
-  async connectJsonDataFile(createNew) {
-    try {
-      const result = await window.labDB.connectDataFile(createNew);
-      this.settings = await window.labDB.getSettings();
-      this.applySettingsToUI();
-      this.updateDataFileStatus(true, result.name);
-      await this.refreshDashboard();
-      await this.refreshRecordsTable();
-      this.navigate("dashboard");
-      this.showToast(
-        `${result.count} reports loaded from ${result.name}.`,
-        "success",
-        "JSON file connected"
-      );
-    } catch (error) {
-      if (error && error.name === "AbortError") return;
-      this.showToast(
-        error instanceof Error ? error.message : String(error),
-        "error",
-        "Could not connect JSON file"
-      );
+        ? "Connected to MongoDB. Reports and laboratory settings are stored in the cloud."
+        : "MongoDB is not connected. Sign in to access the laboratory database.";
     }
   }
 
@@ -1529,8 +1508,8 @@ export class LabApp {
   }
 
   async printReportById(id) {
-    if (!window.labDB.isDataFileConnected()) {
-      this.showToast("Connect the JSON data file to load and print saved reports.", "warning");
+    if (!window.labDB.isConnected()) {
+      this.showToast("Sign in again to load and print saved reports.", "warning");
       return;
     }
     const rep = await window.labDB.getReport(id);
@@ -1540,8 +1519,8 @@ export class LabApp {
   }
 
   async editReportById(id) {
-    if (!window.labDB.isDataFileConnected()) {
-      this.showToast("Connect the JSON data file to load saved reports.", "warning");
+    if (!window.labDB.isConnected()) {
+      this.showToast("Sign in again to load saved reports.", "warning");
       return;
     }
     const rep = await window.labDB.getReport(id);
@@ -1711,8 +1690,8 @@ export class LabApp {
   }
 
   async downloadBackupJson() {
-    if (!window.labDB.isDataFileConnected()) {
-      this.showToast("Connect the JSON data file before downloading a full backup.", "warning");
+    if (!window.labDB.isConnected()) {
+      this.showToast("Sign in again before downloading a full backup.", "warning");
       return;
     }
     const json = await window.labDB.exportBackup();
@@ -1873,12 +1852,6 @@ export class LabApp {
 
     const btnSaveSettings = document.getElementById("btn-save-settings");
     if (btnSaveSettings) this.listen(btnSaveSettings, "click", () => this.saveLabSettingsFromUI());
-
-    const btnConnectJson = document.getElementById("btn-connect-json-file");
-    if (btnConnectJson) this.listen(btnConnectJson, "click", () => this.connectJsonDataFile(false));
-
-    const btnCreateJson = document.getElementById("btn-create-json-file");
-    if (btnCreateJson) this.listen(btnCreateJson, "click", () => this.connectJsonDataFile(true));
 
     const btnBackup = document.getElementById("btn-download-backup");
     if (btnBackup) this.listen(btnBackup, "click", () => this.downloadBackupJson());

@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import "../css/app.css";
 import "../js/templates.js";
-import "../js/json-db.js";
+import "../js/mongo-db.js";
 
 const rootElement = document.getElementById("root");
 

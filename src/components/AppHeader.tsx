@@ -1,4 +1,4 @@
-export default function AppHeader() {
+export default function AppHeader({ onLogout }: { onLogout: () => void }) {
   return (
     <header
       className={"app-header no-print"}
@@ -45,8 +45,8 @@ export default function AppHeader() {
         </div>
         <div
           className={"offline-pill"}
-          id={"data-file-status"}
-          title={"Select a JSON data file from the Backup & Export page"}
+          id={"database-status"}
+          title={"Reports and laboratory settings are stored in MongoDB"}
         >
           <span
             className={"offline-pulse"}
@@ -54,9 +54,12 @@ export default function AppHeader() {
           <span
             className={"offline-text"}
           >
-            {"Database Not Connected"}
+            {"MongoDB Connected"}
           </span>
         </div>
+        <button className={"btn btn-secondary btn-sm"} type={"button"} onClick={onLogout}>
+          {"Sign out"}
+        </button>
       </div>
       <div
         className={"header-nav-row"}

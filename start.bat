@@ -6,13 +6,26 @@ set "PATH=%ProgramFiles%\nodejs;%PATH%"
 
 where npm >nul 2>nul
 if errorlevel 1 (
-  echo Node.js and npm are required. Install Node.js 20 or later, then run this file again.
+  echo Node.js and npm were not found. Installing a portable Node.js LTS runtime...
+  set "NODE_HOME="
+  for /f "usebackq delims=" %%i in (`powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\ensure-node.ps1"`) do set "NODE_HOME=%%i"
+  if not defined NODE_HOME (
+    echo Could not install Node.js. Check your internet connection and try again.
+    pause
+    exit /b 1
+  )
+)
+if defined NODE_HOME set "PATH=%NODE_HOME%;%PATH%"
+where npm >nul 2>nul
+if errorlevel 1 (
+  echo Node.js setup finished, but npm could not be found.
   pause
   exit /b 1
 )
 
-if not exist "node_modules" (
-  echo Installing application dependencies...
+call npm ls --depth=0 >nul 2>nul
+if errorlevel 1 (
+  echo Required packages are missing. Installing application dependencies...
   call npm install
   if errorlevel 1 (
     echo Dependency installation failed.
